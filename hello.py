@@ -1,11 +1,12 @@
 names = []  # empty list of names
-ages = set()
+ages = set()  # create an empty set
 
 for i in range(3):
     name = input("Name: ")
     names.append(name)  # add element to the end of the list
 
     age = int(input("Age: "))
+    ages.add(age)
 
     if age < 0:
         print("Not a real age")
@@ -16,7 +17,9 @@ for i in range(3):
 
 names.sort()
 print(names)
+print(f"We have {len(ages)} different ages, they are: ", end="")
+print(ages)
 
 # info = (name, age)  # tuple
-# info[0] = 'Greg'
+# info[0] = 'Greg' - impossible since tuples are immutable
 # print(info[0])
