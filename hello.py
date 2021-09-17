@@ -1,7 +1,7 @@
 names = []  # empty list of names
 ages = set()  # create an empty set
 
-info = {"name": "age"}
+info = {}  # define a dictionary
 
 for i in range(3):
     name = input("Name: ")
