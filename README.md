@@ -6,7 +6,7 @@
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50"/>
 </p>
 
 <div><img src="https://ikogay.me/content/images/size/w2000/2021/05/cs50.png" alt="Bakery image" width="100%" display="block" margin-left="auto" margin-right="auto" height="auto"/></div>
