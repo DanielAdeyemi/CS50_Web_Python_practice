@@ -25,3 +25,10 @@ class Flight():
 
 
 flight = Flight(3)
+people = ["Harry", "Ron", "Hermione", "Ginny"]
+
+for name in people:
+    if flight.add_passanger(name):
+        print(f"{name} was added to flight")
+    else:
+        print(f"Sorry, {name}! No seats available for this flight")
